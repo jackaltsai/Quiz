@@ -97,7 +97,8 @@ body {
   transition: 0.4s linear all;
   text-align: center;
 }
-.fade-enter {
+
+.fade-enter-from {
   opacity: 0;
 }
 .fade-enter-active {
@@ -108,6 +109,11 @@ body {
   opacity: 0;
   position: absolute;
 }
+
+.fade-leave-to {
+  opacity: 0;
+}
+
 
 .reset-btn {
   background-color: #ff6372;
