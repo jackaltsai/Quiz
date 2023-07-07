@@ -103,7 +103,7 @@ export default {
       ],
     };
   },
-  method: {
+  methods: {
     questionAnswered(is_correct) {
       if (is_correct) {
         this.totalCorrect++;
